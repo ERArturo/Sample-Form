@@ -2,11 +2,11 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import AppHeader from './AppHeader';
 
-const AppFrame = ({header, body, fooder}) => {
+const AppFrame = ({header, body}) => {
     return (
         <div>
             <div className="app-frame">
-                <AppHeader title={props.header}/>
+                <AppHeader title={header}/>
                 <div>{body}</div>
                 <div>Sample form</div>
             </div>
