@@ -39,23 +39,7 @@ CustomerContainer.propTypes = {
 };
 
 CustomerContainer.defaultProps = {
-    customers : [
-        {
-            "curp" : '2423442',
-            "name" : 'Arturo',
-            "age"  : '27'
-        },
-        {
-            "curp" : '54232',
-            "name" : 'Juan',
-            "age"  : '32'
-        },
-        {
-            "curp" : '412321',
-            "name" : 'Tiburcio',
-            "age"  : '17'
-        }
-    ]
+    customers : []
 }
 
 const mapDispatchToProps = {fetchCustomers};
