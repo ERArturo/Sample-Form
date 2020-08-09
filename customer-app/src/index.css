@@ -11,3 +11,13 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+.customer-list-item .field{
+  width: 30vh;
+  margin: 1px;
+  padding: 4px;
+  background: #EEE;
+  display: inline-block;
+
+}

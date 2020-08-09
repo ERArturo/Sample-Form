@@ -1,13 +1,13 @@
 import React, { Component } from 'react';
-import PropTypes from 'prop-types';
-import {Link} from 'react-router-dom';
+// import PropTypes from 'prop-types';
+import {withRouter} from 'react-router-dom';
 import CustomerActions from './../components/CustomerActions';
 import AppFrame from './../components/AppFrame';
 
 
 class HomeContainer extends Component {
     handleSelection = () => {
-        console.log('holi');
+        this.props.history.push('/customers');
     }
     render() {
         return (
@@ -35,4 +35,4 @@ HomeContainer.propTypes = {
 };
 
 
-export default HomeContainer;
+export default withRouter(HomeContainer);
