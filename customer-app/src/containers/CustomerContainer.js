@@ -6,6 +6,7 @@ import AppFrame from './../components/AppFrame';
 import CustomerList from './../components/CustomerList';
 import CustomerActions from './../components/CustomerActions';
 import { fetchCustomers } from '../actions/fetchCustomers';
+import {getCustomers } from '../selectors/customers';
 
 class CustomerContainer extends Component {
 
@@ -46,7 +47,7 @@ const mapDispatchToProps = {fetchCustomers};
 
 const mapStateToProps = (state, ownProps) => {
     return {
-        customers: state.customers
+        customers: getCustomers(state)
     }
 }
 

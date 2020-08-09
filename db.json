@@ -1,0 +1,36 @@
+{
+  "customers" : [
+      {
+          "curp" : "2423442",
+          "name" : "Arturo",
+          "age"  : "27"
+      },
+      {
+          "curp" : "54232",
+          "name" : "Juan",
+          "age"  : "32"
+      },
+      {
+          "curp" : "412321",
+          "name" : "Tiburcio",
+          "age"  : "17"
+      }
+  ],
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
